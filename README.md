@@ -20,7 +20,7 @@ Berry Notes is a lightweight, Markdown-based note-taking application built with 
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/berry-notes.git
+   git clone https://github.com/rootpaper/berry-notes.git
    cd berry-notes
    ```
 
@@ -81,8 +81,6 @@ berry-notes/
 - **Transitions**: All color changes (background, text, borders) use `0.3s ease` for smoothness.
 
 ## Notes
-
-- **Image Support**: The application does not support images in Markdown to keep the focus on text-based notes.
 - **Security**: Currently uses `nodeIntegration: true` and `contextIsolation: false` for simplicity. For production, consider enabling `contextIsolation` and using a `preload.js` script.
 - **Markdown Rendering**: Uses `react-markdown` for rendering Markdown content in the preview pane.
 
